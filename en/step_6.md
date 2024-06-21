@@ -12,7 +12,7 @@ The `sow_seeds()` function contains code to draw the seed emoji at an x, y coord
 language: python
 line_numbers: true
 line_number_start: 22
-line_highlights: 18
+line_highlights: 26
 ---
 def sow_seeds():
     global seed_position
