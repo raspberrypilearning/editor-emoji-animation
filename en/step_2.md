@@ -4,30 +4,33 @@
 ➡️ Change the background colour
 --- /task --- 
 
+The `draw_background()` function contains the code to draw the background. 
+
 <div class="c-project-code">
 --- code ---
 ---
 language: python
-filename: main.py - setup()
 line_numbers: true
-line_number_start: 6
-line_highlights: 7
+line_number_start: 8
 ---
-def setup():
-    size(400, 400)  # Choose a size 
+def draw_background():
+    BROWN = Color(185, 155, 115)
+    BLUE = Color(130, 195, 255)
+    background(BLUE) 
+    fill(BROWN)
+    rect(0,300,400,100)
 
 --- /code ---
 </div>
 
+Change the colour of the background. 
 
-
-
-**Test:** Run your code and you should see the emoji appear near the bottom of the screen. 
+**Test:** Run your code and you should see the new colour you have selected. 
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-You can choose any emoji to represent your player.
+Colours are created using (R)ed, (G)reen and (B)lue values. Use a [colour picker](https://htmlcolorcodes.com/){:target="_blank"} to help you find the values for the colour you want. 
 
 </div>
