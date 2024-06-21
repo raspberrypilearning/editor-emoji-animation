@@ -26,7 +26,7 @@ The `flower()` function contains code to check whether this frame number has pas
 language: python
 line_numbers: true
 line_number_start: 15
-line_highlight: 18
+line_highlights: 18
 ---
 def flower():
     if seed_position >= 300:
@@ -38,9 +38,9 @@ def flower():
 --- /code ---
 </div>
 
-Make the flower grow earlier, or take longer to grow, by changing the frame number.
+Change the frame number to change when your emoji appears. 
 
-**Test:** Run your code and you should see the flower growing earlier or later. 
+**Test:** Run your code and you should see the emoji you chose appearing earlier or later. 
 
 <div class="c-project-callout c-project-callout--tip">
 
