@@ -1,25 +1,35 @@
-## Upgrade your project
+<h2 class="c-project-heading--task">Where does it start?</h2>
 
-If you have time you can upgrade your project. You might have ideas to add more already or you might want to go back to the first step and look at other projects again for more inspiration.
+--- task ---
+➡️ Change the starting position of the seeds
+--- /task --- 
 
-![Finished examples with input and make a face elements](images/upgrade.gif)
+The `sow_seeds()` function contains code to draw the seed emoji at a `x`, `y` coordinate.
 
-You could:
-- Use text and emojis to `print()` a description of your pattern
-- Adjust the size of your pattern based on user `input()`
-- Make a scaled motif using your [Make a face project](https://projects.raspberrypi.org/en/projects/make-a-face){:target="_blank"}
+<div class="c-project-code">
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 22
+line_highlights: 18
+---
+def sow_seeds():
+    global seed_position
+    if seed_position < 300:
+        seed_position = seed_position + 5
+        text('🫘', 200, seed_position)
+--- /code ---
+</div>
 
-Each example project in the Introduction allows you to look at the code, get ideas, and see how they work.
+Change the value `200` and the value of the variable `seed_position` so that the seeds start in a different place. 
 
-This project uses text and emojis to ask the user to choose a size then uses their answer to size all the shapes:
+**Test:** Run your code and you should see the seeds start in a different place.
 
-**McEwen tartan**: 
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/mcewen-tartan-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe>
+<div class="c-project-callout c-project-callout--tip">
 
-You can find the McEwen tartan project [here](https://editor.raspberrypi.org/en/projects/mcewen-tartan-example){:target="_blank"}
+### Tip
 
-Take a look at some Powerful patterns projects created by community members in the Raspberry Pi Foundation’s [Powerful patterns - Community library](https://wke.lt/w/s/yyNPQT){:target="_blank"}.
+You might also want to change when the seeds stop, or the direction they move in. Can you work out which values to change to do this?
 
---- save ---
-
+</div>
