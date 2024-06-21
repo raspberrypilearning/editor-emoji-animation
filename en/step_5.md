@@ -6,6 +6,18 @@
 
 The global variable `grow` contains a frame number.
 
+<div class="c-project-code">
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 6
+---
+grow = 150
+
+--- /code ---
+</div>
+
 The `flower()` function contains code to check whether this frame number has passed, and if so, draw the flower.
 
 <div class="c-project-code">
