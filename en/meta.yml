@@ -10,17 +10,18 @@ listed: true
 copyedit: true
 last_tested: "2024-06-20"
 steps:
-  - title: Introduction
-  - title: Your idea
-  - title: Build and test - Motif
+  - title: Emoji animation
+  - title: Background
     completion:
       - engaged
-  - title: Expand and test - Pattern
+  - title: Emoji
+  - title: Move speed
+  - title: When does it happen?
+  - title: Where does it start?
+  - title: Another emoji
     completion:
       - internal
-  - title: Checklist
+  - title: Get creative
     completion:
       - external
-  - title: Upgrade your project
-  - title: Share
   - title: What next?
