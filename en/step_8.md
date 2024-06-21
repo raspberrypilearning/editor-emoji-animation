@@ -11,6 +11,6 @@ Now it is time for you to get creative and make your own animation! Here are som
 + Specify the coordinates where you want each emoji to appear
 + Use the frame number to specify when your emoji appears
 + Make the emojis move across the screen
-+ Use a loop to make an effect (like the smoke effect from [Rocket launch](https://projects.raspberrypi.org/en/projects/editor-rocket-launch/editor){:target="_blank"})
++ Draw shapes to create an effect (like the smoke effect from [Rocket launch](https://projects.raspberrypi.org/en/projects/editor-rocket-launch/editor){:target="_blank"})
 + Use `random` to make emojis appear in random places
 + Use `mouse_pressed` to make the animation interactive (you used this in [Target practice](https://projects.raspberrypi.org/en/projects/editor-target-practice/editor){:target="_blank"})

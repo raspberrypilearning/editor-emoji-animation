@@ -30,6 +30,6 @@ Change one of the numbers in the code so that the seeds move faster or slower.
 
 ### Tip
 
-The code in this function runs in every frame of the animation, because it is called inside `draw()`.
+If you are not sure, change one of the numbers and then run the code to see what happens!
 
 </div>

@@ -38,7 +38,7 @@ def flower():
 --- /code ---
 </div>
 
-Change the frame number to change when your emoji appears. 
+Change the value of the variable `grow` to change when your emoji appears. 
 
 **Test:** Run your code and you should see the emoji you chose appearing earlier or later. 
 
