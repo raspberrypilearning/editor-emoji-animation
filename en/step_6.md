@@ -22,7 +22,7 @@ def sow_seeds():
 --- /code ---
 </div>
 
-Change the x value (`200`) and the y value (the variable `seed_position`) so that the seeds start in a different place. 
+Change the x value (`200`) and the y value (the variable `seed_position`) so that the seeds start in a different place. y
 
 **Test:** Run your code and you should see the seeds start in the new position.
 
