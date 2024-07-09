@@ -1,9 +1,9 @@
 <h2 class="c-project-heading--task">You've completed the project 🎉</h2>
 
 --- task ---
-We’d love to hear your thoughts about using the code editor to complete the 'Emoji animation' project! 
+We’d love to hear your thoughts about using the Code Editor to complete the 'Emoji animation' project! 
 
-➡️ Please complete our [feedback form](https://form.raspberrypi.org/4873648) to let us know.
+➡️ Please complete our [feedback form](https://form.raspberrypi.org/4873648) to let us know what you thought.
 
 --- /task --- 
 
