@@ -24,7 +24,7 @@ def sow_seeds():
 
 Change the x value (`200`) and the y value (the variable `seed_position`) so that the seeds start in a different place.
 
-**Test:** Run your code and you should see the seeds start in the new position.
+**Test:** Run your code and see the seeds start in the new position.
 
 <div class="c-project-callout c-project-callout--tip">
 
