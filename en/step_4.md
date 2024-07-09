@@ -24,7 +24,7 @@ def sow_seeds():
 
 Change one of the numbers in the code so that the seeds move faster or slower.
 
-**Test:** Run your code and you should see the seeds moving faster or slower. 
+**Test:** Run your code and see the seeds moving faster or slower. 
 
 <div class="c-project-callout c-project-callout--tip">
 
