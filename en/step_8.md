@@ -4,9 +4,9 @@
 ➡️ Make your own animation
 --- /task --- 
 
-Now it is time for you to get creative and make your own animation! Here are some ideas for inspiration:
+Now it's time for you to get creative and make your own animation! Here are some ideas for inspiration:
 
-+ Change the background - use different colours or draw some shapes 
++ Change the background — use different colours or draw some shapes 
 + Use your own emojis
 + Specify the coordinates where you want each emoji to appear
 + Use the frame number to specify when your emoji appears
