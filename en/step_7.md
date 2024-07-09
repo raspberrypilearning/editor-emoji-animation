@@ -21,7 +21,7 @@ def my_function_name():
 
 Create a new function and use it to draw another emoji. Call the function inside `draw()`.
 
-**Test:** Run your code and you should see your new emoji.
+**Test:** Run your code and see your new emoji.
 
 
 <div class="c-project-callout c-project-callout--debug">
