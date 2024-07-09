@@ -25,7 +25,7 @@ def draw_background():
 
 Change the colour of the background. 
 
-**Test:** Run your code and you should see the new colour you have selected. 
+**Test:** Run your code and see the new colour you have selected. 
 
 <div class="c-project-callout c-project-callout--tip">
 
