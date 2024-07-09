@@ -40,7 +40,7 @@ def flower():
 
 Change the value of the variable `grow` to change when your emoji appears. 
 
-**Test:** Run your code and see the emoji you chose appearing earlier or later. 
+**Test:** Run your code and see the emoji you chose appear earlier or later. 
 
 <div class="c-project-callout c-project-callout--tip">
 
