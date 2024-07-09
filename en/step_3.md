@@ -25,7 +25,7 @@ def flower():
 
 Change the flower emoji to a different emoji, so that something else grows!
 
-**Test:** Run your code and you should see your new emoji at the end of the animation. 
+**Test:** Run your code and see your new emoji at the end of the animation. 
 
 <div class="c-project-callout c-project-callout--tip">
 
