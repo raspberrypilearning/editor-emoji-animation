@@ -31,6 +31,6 @@ Change the colour of the background.
 
 ### Tip
 
-Colours are created using (R)ed, (G)reen and (B)lue values. Use a [colour picker](https://htmlcolorcodes.com/){:target="_blank"} to help you find the values for the colour you want. 
+Colours are created using (R)ed, (G)reen, and (B)lue values. Use a [colour picker](https://htmlcolorcodes.com/){:target="_blank"} to help you find the values for the colour you want. 
 
 </div>
