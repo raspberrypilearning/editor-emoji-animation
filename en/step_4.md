@@ -26,6 +26,8 @@ Change one of the numbers in the code so that the seeds move faster or slower.
 
 **Test:** Run your code and see the seeds moving faster or slower. 
 
+You will adjust the other timings in the next step.
+
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
