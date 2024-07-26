@@ -3,7 +3,6 @@
 --- question ---
 ---
 legend: Claim your badge 🎉
-
 ---
 
 You've earned a badge for completing the project. 
@@ -16,7 +15,7 @@ You've earned a badge for completing the project.
 
  --- feedback ---
 
-Great work!
+Great work! Click on 'Complete quiz' to receive your badge.
 
  --- /feedback ---
 
