@@ -22,9 +22,9 @@ steps:
     completion:
       - internal
   - title: Get creative
+  - title: Badge
     completion:
       - external
-  - title: Badge
     knowledge_quiz:
       path: quiz1
       version: 1
