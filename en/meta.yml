@@ -24,4 +24,10 @@ steps:
   - title: Get creative
     completion:
       - external
+  - title: Badge
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 1
+      passing_score: 1
   - title: What next?
