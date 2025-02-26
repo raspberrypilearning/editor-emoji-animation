@@ -1,23 +1,37 @@
-## Step title
-
-Add an introductory sentence. What will learners achieve by the end of this step?
+<h2 class="c-project-heading--task">Background</h2>
 
 --- task ---
+➡️ Change the background colour
+--- /task --- 
 
-If working **online**, open the [starter project](https://rpf.io/p/en/projectName-on){:target="_blank"} in Scratch.
- 
-If working **offline**, open the project [starter file](https://rpf.io/p/en/projectName-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+The `draw_background()` function contains the code to draw the background. 
 
-You should see...
- 
-![starter project](images/starter_project.png)
+<div class="c-project-code">
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 8
+---
+def draw_background():
+    BROWN = Color(185, 155, 115)
+    BLUE = Color(130, 195, 255)
+    background(BLUE) 
+    fill(BROWN)
+    rect(0,300,400,100)
 
---- /task ---
+--- /code ---
+</div>
 
---- task ---
+Change the colour of the background. 
 
-Step content...
+**Test:** Run your code and see the new colour you have selected. 
 
---- /task ---
+<div class="c-project-callout c-project-callout--tip">
 
---- save ---
+### Tip
+
+Colours are created using (R)ed, (G)reen, and (B)lue values. Use a [colour picker](https://htmlcolorcodes.com/){:target="_blank"} to help you find the values for the colour you want. 
+
+</div>
+
