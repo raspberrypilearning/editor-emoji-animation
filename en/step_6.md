@@ -1,35 +1,47 @@
-<h2 class="c-project-heading--task">Where does it start?</h2>
+<h2 class="c-project-heading--task">Another emoji</h2>
 
---- task ---
-➡️ Change the starting position of the seeds
---- /task --- 
+Add a function to draw another emoji
 
-The `sow_seeds()` function contains code to draw the seed emoji at an x, y coordinate.
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+You can create a new function to draw and animate another emoji.
 
 <div class="c-project-code">
 --- code ---
 ---
 language: python
 line_numbers: true
-line_number_start: 22
-line_highlights: 26
+line_number_start: 7
+line_highlights: 18
 ---
-def sow_seeds():
-    global seed_position
-    if seed_position < 300:
-        seed_position = seed_position + 5
-        text('🫘', 200, seed_position)
+def my_function_name():
+    text('🦙', 300, 300)
 --- /code ---
 </div>
 
-Change the x value (`200`) and the y value (the variable `seed_position`) so that the seeds start in a different place.
+Create a new function and use it to draw another emoji. Call the function inside `draw()`.
 
-**Test:** Run your code and see the seeds start in the new position.
+### Debugging
+<div class="c-project-callout c-project-callout--debug">
+You need to call your function inside `draw()` for it to execute.
 
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-
-You might also want to change when the seeds stop, or the direction they move in. Can you work out which values to change in the code above to do this?
-
+<div class="c-project-code">
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 34
+line_highlights: 38
+---
+def draw():
+    draw_background()
+    flower()
+    sow_seeds()
+    my_function_name()
+--- /code ---
 </div>
+</div>
+
+## Now run your code
+
+Check your new emoji.

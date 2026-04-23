@@ -1,51 +1,34 @@
-<h2 class="c-project-heading--task">When does it happen?</h2>
+<h2 class="c-project-heading--task">Where does it start?</h2>
 
---- task ---
-➡️ Change when the flower grows
---- /task --- 
+Change the starting position of the seeds
 
-The global variable `grow` contains a frame number.
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 6
----
-grow = 150
-
---- /code ---
-</div>
-
-The `flower()` function contains code to check whether this frame number has passed, and if so, draw the flower.
+The `sow_seeds()` function contains code to draw the seed emoji at an x, y coordinate.
 
 <div class="c-project-code">
 --- code ---
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 18
+line_number_start: 22
+line_highlights: 26
 ---
-def flower():
-    if seed_position >= 300:
-        text('🌱', 200, 300)    
-    if frame_count > grow: 
-        draw_background()
-        text('🌷', 200, 300)
-
+def sow_seeds():
+    global seed_position
+    if seed_position < 300:
+        seed_position = seed_position + 5
+        text('🫘', 200, seed_position)
 --- /code ---
 </div>
 
-Change the value of the variable `grow` to change when your emoji appears. 
-
-**Test:** Run your code and see the emoji you chose appear earlier or later. 
-
-<div class="c-project-callout c-project-callout--tip">
+Change the x value (`200`) and the y value (the variable `seed_position`) so that the seeds start in a different place.
 
 ### Tip
-
-You can create more variables containing frame numbers, and use them to control when different things happen in your animation.
-
+<div class="c-project-callout c-project-callout--tip">
+You might also want to change when the seeds stop, or the direction they move in. Can you work out which values to change in the code above to do this?
 </div>
+
+## Now run your code
+
+Check the seeds start in the new position.
