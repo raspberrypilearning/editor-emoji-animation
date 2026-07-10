@@ -1,37 +1,26 @@
-<h2 class="c-project-heading--task">Emoji</h2>
+## Emoji
 
---- task ---
-➡️ Change the flower emoji to another emoji
---- /task --- 
+> [!TASK]
+>
+> ➡️ Change the flower emoji to another emoji
 
-The `flower()` function contains the code to draw the flower. 
+The `flower()` function contains the code to draw the flower.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 15
----
+```python line_numbers="true" line_number_start="15"
 def flower():
     if seed_position >= 300:
         text('🌱', 200, 300)    
     if frame_count > grow: 
         draw_background()
         text('🌷', 200, 300)
-
---- /code ---
-</div>
+```
 
 Change the flower emoji to a different emoji, so that something else grows!
 
-**Test:** Run your code and see your new emoji at the end of the animation. 
+## Now run your code
 
-<div class="c-project-callout c-project-callout--tip">
+Run your code and see your new emoji at the end of the animation.
 
-### Tip
-
-You can search for and copy emojis from an [emoji chooser](https://emojipedia.org/){:target="_blank"}.
-
-</div>
-
+> [!TIP]
+>
+> You can search for and copy emojis from an [emoji chooser](https://emojipedia.org/){:target="_blank"}.

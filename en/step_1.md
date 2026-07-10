@@ -1,8 +1,8 @@
-<h2 class="c-project-heading--task">Emoji animation</h2>
+## Emoji animation
 
---- task ---
-➡️ Use the skills you have learned to create your own animation.
---- /task --- 
+> [!TASK]
+>
+> ➡️ Use the skills you have learned to create your own animation.
 
 Run the starter code to see an animation of a flower.
 

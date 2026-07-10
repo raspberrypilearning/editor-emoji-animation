@@ -1,12 +1,12 @@
-<h2 class="c-project-heading--task">Get creative</h2>
+## Get creative
 
---- task ---
-➡️ Make your own animation
---- /task --- 
+> [!TASK]
+>
+> ➡️ Make your own animation
 
 Now it's time for you to get creative and make your own animation! Here are some ideas for inspiration:
 
-+ Change the background — use different colours or draw some shapes 
++ Change the background — use different colours or draw some shapes
 + Use your own emojis
 + Specify the coordinates where you want each emoji to appear
 + Use the frame number to specify when your emoji appears
