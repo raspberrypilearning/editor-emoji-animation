@@ -1,50 +1,27 @@
-<h2 class="c-project-heading--task">When does it happen?</h2>
+## Move speed
 
-Change when the flower grows
+> [!TASK]
+>
+> ➡️ Make the seeds move faster or slower
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+The `sow_seeds()` function contains the code that tells the seeds to move down from the top of the screen.
 
-The global variable `grow` contains a frame number.
+```python line_numbers="true" line_number_start="22"
+def sow_seeds():
+    global seed_position
+    if seed_position < 300:
+        seed_position = seed_position + 5
+        text('🫘', 200, seed_position)
+```
 
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 6
----
-grow = 150
-
---- /code ---
-</div>
-
-The `flower()` function contains code to check whether this frame number has passed, and if so, draw the flower.
-
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 15
-line_highlights: 18
----
-def flower():
-    if seed_position >= 300:
-        text('🌱', 200, 300)
-    if frame_count > grow:
-        draw_background()
-        text('🌷', 200, 300)
-
---- /code ---
-</div>
-
-Change the value of the variable `grow` to change when your emoji appears.
-
-### Tip
-<div class="c-project-callout c-project-callout--tip">
-You can create more variables containing frame numbers, and use them to control when different things happen in your animation.
-</div>
+Change one of the numbers in the code so that the seeds move faster or slower.
 
 ## Now run your code
 
-Check the emoji you chose appear earlier or later.
+Run your code and see the seeds moving faster or slower.
+
+You will adjust the other timings in the next step.
+
+> [!TIP]
+>
+> If you are not sure, change one of the numbers and then run the code to see what happens!

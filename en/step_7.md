@@ -1,20 +1,30 @@
-<h2 class="c-project-heading--task">Get creative</h2>
+## Another emoji
 
-Make your own animation
+> [!TASK]
+>
+> ➡️ Add a function to draw another emoji
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+You can create a new function to draw and animate another emoji.
 
-Now it's time for you to get creative and make your own animation! Here are some ideas for inspiration:
+```python line_numbers="true" line_number_start="7" line_highlights="7-8"
+def my_function_name():
+    text('🦙', 300, 300)
+```
 
-+ Change the background — use different colours or draw some shapes
-+ Use your own emojis
-+ Specify the coordinates where you want each emoji to appear
-+ Use the frame number to specify when your emoji appears
-+ Make the emojis move across the screen
-+ Draw shapes to create an effect (like the smoke effect from [Rocket launch](https://projects.raspberrypi.org/en/projects/editor-rocket-launch/editor){:target="_blank"})
-+ Use `random` to make emojis appear in random places
-+ Use `mouse_pressed` to make the animation interactive (you used this in [Target practice](https://projects.raspberrypi.org/en/projects/editor-target-practice/editor){:target="_blank"})
+Create a new function and use it to draw another emoji. Call the function inside `draw()`.
 
 ## Now run your code
 
-Try one of your ideas and check the changes in your animation.
+Run your code and see your new emoji.
+
+> [!DEBUG]
+>
+> You need to call your function inside `draw()` for it to execute.
+>
+> ```python line_numbers="true" line_number_start="34" line_highlights="38"
+> def draw(): 
+>     draw_background()
+>     flower()
+>     sow_seeds()
+>     my_function_name()
+> ```

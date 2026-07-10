@@ -3,17 +3,17 @@ title: Emoji animation
 hero_image: images/banner.png
 description: Create a fun animation using emojis
 meta_title: Python coding projects for kids and teens | Emoji animation
-meta_description: Learn Python with the Raspberry Pi Foundation's coding projects for kids and teens. Create a fun animation using emojis.
+meta_description: Learn Python with the Raspberry Pi Foundation's coding projects for kids and teens. Create a fun animation using emojis. 
 version: 1
 listed: true
 copyedit: true
 last_tested: "2024-06-20"
-landing: true
 steps:
+  - title: Emoji animation
   - title: Background
-  - title: Emoji
     completion:
       - engaged
+  - title: Emoji
   - title: Move speed
   - title: When does it happen?
   - title: Where does it start?
@@ -21,3 +21,6 @@ steps:
     completion:
       - internal
   - title: Get creative
+    completion:
+      - external
+  - title: What next?
