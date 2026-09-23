@@ -8,8 +8,8 @@ version: 1
 listed: true
 copyedit: true
 last_tested: "2024-06-20"
+landing: true
 steps:
-  - title: Emoji animation
   - title: Background
     completion:
       - engaged
