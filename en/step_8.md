@@ -1,16 +1,15 @@
-## Get creative
+## You've completed the project 🎉
 
 > [!TASK]
 >
-> ➡️ Make your own animation
+> We’d love to hear your thoughts about using the Code Editor to complete the 'Emoji animation' project!
+>
+> ➡️ Please complete our [feedback form](https://form.raspberrypi.org/4873648) to let us know what you thought.
 
-Now it's time for you to get creative and make your own animation! Here are some ideas for inspiration:
-
-+ Change the background — use different colours or draw some shapes
-+ Use your own emojis
-+ Specify the coordinates where you want each emoji to appear
-+ Use the frame number to specify when your emoji appears
-+ Make the emojis move across the screen
-+ Draw shapes to create an effect (like the smoke effect from [Rocket launch](https://projects.raspberrypi.org/en/projects/editor-rocket-launch/editor){:target="_blank"})
-+ Use `random` to make emojis appear in random places
-+ Use `mouse_pressed` to make the animation interactive (you used this in [Target practice](https://projects.raspberrypi.org/en/projects/editor-target-practice/editor){:target="_blank"})
+> [!INFO]
+>
+> ## What next?
+>
+> Congratulations, you have reached the end of the [Introduction to Python](https://projects.raspberrypi.org/en/pathways/python-intro) path!
+>
+> You can explore our [other Python projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python) and try them out.
