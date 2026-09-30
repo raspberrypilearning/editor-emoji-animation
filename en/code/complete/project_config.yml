@@ -1,0 +1,4 @@
+name: "Emoji animation complete"
+identifier: "editor-emoji-animation-complete"
+type: 'python'
+build: true
